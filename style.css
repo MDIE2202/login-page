@@ -1,0 +1,47 @@
+html, body{
+    height: 100%;
+    width:100%;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    background: black;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100vw;
+
+    max-height: 980px;
+    height: 70vw;
+
+    margin: auto;
+
+    display: flex;
+
+}
+
+.form-content{
+    width: 60%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-container{
+    width: 40%;
+    height: 100%;
+    background-color: pink;
+}
+
+.form{
+    height: 30%;
+    width: 100%;
+    background-color: green;
+}

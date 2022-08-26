@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href = 'style.css'>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class = main>
 
         <div class = container>
             <div class = img-container>
+                
+                <img src = 'images/flower.jpg'>
+                <div class = 'cover'> <h2>The Project</h2></div>
 
             </div>
             <div class = form-content>
@@ -21,13 +25,50 @@
                         <h1>some extra info to promote</h1>
                     </div>
                 </div>
-                <div class = 'form'>
+                <div class = form>
+                    <div class = leftbox>
+                        <div class = formtext>
+                            Lets do This
+                        </div>
+                        <div class = 'formboxes'>
+                            <form id = 'myform'>
+                                <ul>
+                                    <li>
+                                        <label for="fname">First Name</label>
+                                        <input type="text">
+                                    </li>
+                                    <li>
+                                        <label for="lname">Last Name</label>
+                                        <input type="text">
+                                    </li>
+                                    <li>
+                                        <label for="email">Email</label>
+                                        <input type="text">
+                                    </li>
+                                    <li>
+                                        <label for="phone">Phone</label>
+                                        <input type="text">
+                                    </li>
+                                    <li>
+                                        <label for="pass">Password</label>
+                                        <input type="password" id = password>
+                                    </li>
+                                    <li>
+                                        <label for="pass2">confirm password</label>
+                                        <input type="password" id = confirm-password oninput = "check(this)">
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                    <div class = rightbox>
 
+                    </div>
                 </div>
                 <div class = hf>
                     <div class = footertextbox>
-                        <h1>This is main test content for the login page.</h1>
-                        <h1>some extra info to promote</h1>
+                        <input class = 'submitbutton' type = 'submit' form = 'myform' value = 'Update'>
+                        <h1>Already have an account? <a href = ''>Login</a></h1>
                     </div>
                 </div>
 
